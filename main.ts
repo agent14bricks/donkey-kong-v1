@@ -189,7 +189,7 @@ let myTile = scene.getTile(1, 29)
 scene.place(myTile, mySpritebottom)
 let tile_list = scene.getTilesByType(9)
 let dk = scene.getTile(4, 4)
-scene.place(myTile, donkeykong)
+scene.place(dk, donkeykong)
 game.onUpdate(function () {
     mySpriteTop.setPosition(mySpritebottom.x, mySpritebottom.y - 8)
     if (mySpritebottom.bottom == tiles.tilemapRows() * tiles.tileWidth()) {
